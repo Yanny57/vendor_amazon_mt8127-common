@@ -105,7 +105,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/lib_uree_mtk_video_secure_al.so:system/lib/lib_uree_mtk_video_secure_al.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaal.so:system/lib/libaal.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaed.so:system/lib/libaed.so \
-    vendor/amazon/mt8127-common/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaudiocustparam.so:system/lib/libaudiocustparam.so \
@@ -183,10 +182,8 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/libsmartsuspendmanagerservice.so:system/lib/libsmartsuspendmanagerservice.so \
     vendor/amazon/mt8127-common/proprietary/lib/libsmartvolume.so:system/lib/libsmartvolume.so \
     vendor/amazon/mt8127-common/proprietary/lib/libspeech_enh_lib.so:system/lib/libspeech_enh_lib.so \
-    vendor/amazon/mt8127-common/proprietary/lib/libstagefright_omx.so:system/lib/libstagefright_omx.so \
     vendor/amazon/mt8127-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/amazon/mt8127-common/proprietary/lib/libstlport.so:system/lib/libstlport.so \
-    vendor/amazon/mt8127-common/proprietary/lib/libthermalservice.so:system/lib/libthermalservice.so \
     vendor/amazon/mt8127-common/proprietary/lib/libtoe.so:system/lib/libtoe.so \
     vendor/amazon/mt8127-common/proprietary/lib/libtrapz.so:system/lib/libtrapz.so \
     vendor/amazon/mt8127-common/proprietary/lib/libtz_uree.so:system/lib/libtz_uree.so \
