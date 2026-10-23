@@ -18,14 +18,12 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/bin/6620_launcher:system/bin/6620_launcher \
     vendor/amazon/mt8127-common/proprietary/bin/6620_wmt_concurrency:system/bin/6620_wmt_concurrency \
     vendor/amazon/mt8127-common/proprietary/bin/6620_wmt_lpbk:system/bin/6620_wmt_lpbk \
-    vendor/amazon/mt8127-common/proprietary/bin/aal:system/bin/aal \
     vendor/amazon/mt8127-common/proprietary/bin/akmd09911:system/bin/akmd09911 \
     vendor/amazon/mt8127-common/proprietary/bin/akmd8963:system/bin/akmd8963 \
     vendor/amazon/mt8127-common/proprietary/bin/amzn_dha_hmac:system/bin/amzn_dha_hmac \
     vendor/amazon/mt8127-common/proprietary/bin/amzn_dha_tool:system/bin/amzn_dha_tool \
     vendor/amazon/mt8127-common/proprietary/bin/amzn_drmprov_check:system/bin/amzn_drmprov_check \
     vendor/amazon/mt8127-common/proprietary/bin/amzn_drmprov_tool:system/bin/amzn_drmprov_tool \
-    vendor/amazon/mt8127-common/proprietary/bin/atci_service:system/bin/atci_service \
     vendor/amazon/mt8127-common/proprietary/bin/atcid:system/bin/atcid \
     vendor/amazon/mt8127-common/proprietary/bin/audiocli:system/bin/audiocli \
     vendor/amazon/mt8127-common/proprietary/bin/audiocmdservice_atci:system/bin/audiocmdservice_atci \
@@ -57,8 +55,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/etc/.tp/.ht120.mtc:system/etc/.tp/.ht120.mtc \
     vendor/amazon/mt8127-common/proprietary/etc/.tp/thermal.conf:system/etc/.tp/thermal.conf \
     vendor/amazon/mt8127-common/proprietary/etc/.tp/thermal.off.conf:system/etc/.tp/thermal.off.conf \
-    vendor/amazon/mt8127-common/proprietary/etc/bluetooth/bt_did.conf:system/etc/bluetooth/bt_did.conf \
-    vendor/amazon/mt8127-common/proprietary/etc/bluetooth/bt_stack.conf:system/etc/bluetooth/bt_stack.conf \
     vendor/amazon/mt8127-common/proprietary/etc/firmware/ROMv2_patch_1_0_hdr.bin:system/etc/firmware/ROMv2_patch_1_0_hdr.bin \
     vendor/amazon/mt8127-common/proprietary/etc/firmware/ROMv2_patch_1_1_hdr.bin:system/etc/firmware/ROMv2_patch_1_1_hdr.bin \
     vendor/amazon/mt8127-common/proprietary/etc/firmware/WIFI_RAM_CODE_8127:system/etc/firmware/WIFI_RAM_CODE_8127 \
@@ -98,12 +94,10 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/libMtkOmxRawDec.so:system/lib/libMtkOmxRawDec.so \
     vendor/amazon/mt8127-common/proprietary/lib/libMtkOmxVdec.so:system/lib/libMtkOmxVdec.so \
     vendor/amazon/mt8127-common/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
-    vendor/amazon/mt8127-common/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
     vendor/amazon/mt8127-common/proprietary/lib/libMtkOmxVorbisEnc.so:system/lib/libMtkOmxVorbisEnc.so \
     vendor/amazon/mt8127-common/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/amazon/mt8127-common/proprietary/lib/lib_uree_mtk_crypto.so:system/lib/lib_uree_mtk_crypto.so \
     vendor/amazon/mt8127-common/proprietary/lib/lib_uree_mtk_video_secure_al.so:system/lib/lib_uree_mtk_video_secure_al.so \
-    vendor/amazon/mt8127-common/proprietary/lib/libaal.so:system/lib/libaal.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaed.so:system/lib/libaed.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaudiocompensationfilter.so:system/lib/libaudiocompensationfilter.so \
     vendor/amazon/mt8127-common/proprietary/lib/libaudiocomponentengine.so:system/lib/libaudiocomponentengine.so \
