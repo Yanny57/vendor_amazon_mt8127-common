@@ -190,7 +190,6 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/libvp9dec_sa.ca7.so:system/lib/libvp9dec_sa.ca7.so \
     vendor/amazon/mt8127-common/proprietary/lib/modules/ufsd.ko:system/lib/modules/ufsd.ko \
     vendor/amazon/mt8127-common/proprietary/vendor/etc/audio_effects.conf:system/vendor/etc/audio_effects.conf \
-    vendor/amazon/mt8127-common/proprietary/vendor/etc/audio_policy.conf:system/vendor/etc/audio_policy.conf \
     vendor/amazon/mt8127-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/amazon/mt8127-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/amazon/mt8127-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
