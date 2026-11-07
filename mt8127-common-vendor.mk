@@ -52,9 +52,9 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/bin/thermal_manager:$(TARGET_COPY_OUT_VENDOR)/bin/thermal_manager \
     vendor/amazon/mt8127-common/proprietary/bin/thermald:$(TARGET_COPY_OUT_VENDOR)/bin/thermald \
     vendor/amazon/mt8127-common/proprietary/bin/wmt_loader:$(TARGET_COPY_OUT_VENDOR)/bin/wmt_loader \
-    vendor/amazon/mt8127-common/proprietary/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/.ht120.mtc \
-    vendor/amazon/mt8127-common/proprietary/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.conf \
-    vendor/amazon/mt8127-common/proprietary/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/etc/.tp/thermal.off.conf \
+    vendor/amazon/mt8127-common/proprietary/etc/.tp/.ht120.mtc:$(TARGET_COPY_OUT_VENDOR)/odm/etc/.ht120.mtc \
+    vendor/amazon/mt8127-common/proprietary/etc/.tp/thermal.conf:$(TARGET_COPY_OUT_VENDOR)/odm/etc/thermal.conf \
+    vendor/amazon/mt8127-common/proprietary/etc/.tp/thermal.off.conf:$(TARGET_COPY_OUT_VENDOR)/odm/etc/thermal.off.conf \
     vendor/amazon/mt8127-common/proprietary/etc/firmware/ROMv2_patch_1_0_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/odm/firmware/ROMv2_patch_1_0_hdr.bin \
     vendor/amazon/mt8127-common/proprietary/etc/firmware/ROMv2_patch_1_1_hdr.bin:$(TARGET_COPY_OUT_VENDOR)/odm/firmware/ROMv2_patch_1_1_hdr.bin \
     vendor/amazon/mt8127-common/proprietary/etc/firmware/WIFI_RAM_CODE_8127:$(TARGET_COPY_OUT_VENDOR)/odm/firmware/WIFI_RAM_CODE_8127 \
@@ -66,7 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libEGL_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv1_CM_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv2_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_mali.so \
-    vendor/amazon/mt8127-common/proprietary/lib/hw/audio.primary.mt8127.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt8127.so \
+    vendor/amazon/mt8127-common/proprietary/lib/hw/audio.primary.mt8127.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt8127_vendor.so \
     vendor/amazon/mt8127-common/proprietary/lib/hw/camera.mt8127.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.mt8127.so \
     vendor/amazon/mt8127-common/proprietary/lib/hw/gralloc.mt8127.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.mt8127.so \
     vendor/amazon/mt8127-common/proprietary/lib/hw/hwcomposer.mt8127.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.mt8127.so \
