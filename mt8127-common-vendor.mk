@@ -63,7 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/amazon/mt8127-common/proprietary/etc/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     vendor/amazon/mt8127-common/proprietary/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     vendor/amazon/mt8127-common/proprietary/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
-    vendor/amazon/mt8127-common/proprietary/lib/egl/libEGL_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_mali.so \
+    vendor/amazon/mt8127-common/proprietary/lib/egl/libEGL_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEGL_mali_vendor.so \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv1_CM_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/egl/libGLESv2_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_mali.so \
     vendor/amazon/mt8127-common/proprietary/lib/hw/audio.primary.mt8127.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.mt8127_vendor.so \
